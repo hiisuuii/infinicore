@@ -3,13 +3,13 @@
 	"id": "infinicore",
 	"version": "${version}",
 	"name": "infinicore",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds an end-game item that can be used to make your tools unbreakable!",
 	"authors": [
-		"Me!"
+		"hisui"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/infinicore",
+		"sources": "https://github.com/hiisuuii/infinicore"
 	},
 	"license": "MIT",
 	"icon": "assets/infinicore/icon.png",
@@ -27,8 +27,5 @@
 		"minecraft": "~1.20",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
