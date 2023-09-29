@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "odo",
+    "dsd",
+    "odo"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "s": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "infinicore:infinicore"
+  }
+}
