@@ -31,7 +31,7 @@ abstract class InfinicoreMixin extends ForgingScreenHandler {
 		ItemStack itemStack2 = this.input.getStack(1);
 		if (itemStack1.isDamageable() && itemStack2.isOf(Main.INFINICORE)) {
 			this.levelCost.set(10);
-			NbtCompound nbt = itemStack1.getNbt();
+			NbtCompound nbt = itemStack1.getOrCreateNbt();
 			nbt.putBoolean("Unbreakable", true);
 			itemStack1.setNbt(nbt);
 			itemStack1.setDamage(0);
